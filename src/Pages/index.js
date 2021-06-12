@@ -1,5 +1,5 @@
-import Menu from '../components/Menu';
-import Miranha from '../miranhaBrabo.jpg';
+import Menu from '../Components/Menu';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
@@ -7,9 +7,7 @@ function Home() {
         <div>
             <Menu />
             Home 
-            <img src={Miranha} alt="miranhaBrabo"/>
-                       
-       
+            <img src="./miranhaBrabo.jpg" alt="miranhaBrabo"/>
         </div>
     );
 }

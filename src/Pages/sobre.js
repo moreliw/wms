@@ -1,4 +1,4 @@
-import Menu from '../components/Menu';
+import Menu from '../Components/Menu';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
