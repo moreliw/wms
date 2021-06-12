@@ -1,26 +1,17 @@
-import {useState} from 'react';
+import Menu from '../components/Menu';
+import Miranha from '../miranhaBrabo.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home(){
+function Home() {
     return (
-      <div>
-        <h1>William</h1>
-        <Contador/>
-     </div>
-    ) 
+        <div>
+            <Menu />
+            Home 
+            <img src={Miranha} alt="miranhaBrabo"/>
+                       
+       
+        </div>
+    );
 }
 
-function Contador(){
-
-    const [contador, setContador] = useState(1);
-
-    function adicionarContador(){
-        setContador (contador + 1);
-    }
-
-    return <div>
-        <div>{Contador}</div>
-        <button onClick={adicionarContador}>Adicionar</button>
-    </div>
-}
-
-export default Home
+export default Home;

@@ -1,25 +1,21 @@
 {
-  "name": "wms",
+  "name": "site_agenda",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moreliw/wms.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/moreliw/wms/issues"
-  },
-  "homepage": "https://github.com/moreliw/wms#readme",
   "dependencies": {
-    "next": "^10.2.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.5.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reactstrap": "^8.4.1"
   }
 }
